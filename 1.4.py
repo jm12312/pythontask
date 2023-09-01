@@ -11,7 +11,7 @@ class ChessPlayer:
         self.score = 0
 
 
-c1 = ChessPlayer("Courage of the cowardly dog", 25, 1000.39, 1000, isBoring=False)
+c1 = ChessPlayer("Courage the Cowardly Dog", 25, 1000.39, 1000, isBoring=False)
 c2 = ChessPlayer("Princess Peach", 23, 945.65, 50, isBoring=True)
 c3 = ChessPlayer("Walter White", 50, 1650.73, 750, isBoring=False)
 c4 = ChessPlayer("Rory Gilmore", 16, 1700.87, 500, isBoring=False)
@@ -63,6 +63,8 @@ for i in range(6):
     for j in range(6):
         if i != j:
             simulateMatch(a[i], a[j])
+            print(a[i].name, a[i].score, "-",a[j].score, a[j].name)
 
-for l in range(6):
-    print(a[l].score)
+
+for i in range(6):
+    print(a[i].name, a[i].score)
