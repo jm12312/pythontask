@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My App</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <nav>
+   <ul>
+     <li class="brand"><img src="logo.png"/>JMSpotify</li>
+     <li>Home</li>
+     <li>About</li>
+   </ul>
+ </nav>
+  <div class="container">
+    
+    <div class="songlist">
+      <h2>Best Songs</h2>
+      <div class="songItemCont">
+        <div class="songItem">
+          <span><img src="bonesimg.jpg"/></span>
+          <span class="song_name">Bones</span>
+          <span class="song1">05:33 <i id="0" class="fa-solid songItemPlay fa-circle-play"></i></span> 
+      </div>
+      <div class="songItem">
+          <span><img src="bonesimg.jpg"/></span>
+          <span class="song_name">Bones</span>
+          <span class="song1">05:33 <i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span> 
+      </div>
+      <div class="songItem">
+          <span><img src="bonesimg.jpg"/></span>
+          <span class="song_name">Bones</span>
+          <span class="song1">05:33 <i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span> 
+      </div>
+      <div class="songItem">
+          <span><img src="bonesimg.jpg"/></span>
+          <span class="song_name">Bones</span>
+          <span class="song1">05:33 <i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span> 
+      </div>
+      <div class="songItem">
+          <span><img src="bonesimg.jpg"/></span>
+          <span class="song_name">Bones</span>
+          <span class="song1">05:33 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span> 
+      </div>
+      </div>
+    </div>
+    <div class="songBanner"></div>  
+  </div>
+  <div class="bottom">
+    <input type="range" id="progressBar" name="pgBar" min="0" max="1000" value="0">
+    <div class="icons">
+      <i class="fa-solid fa-backward-step fa-2x" id="prev"></i>
+      <i class="fa-solid fa-circle-play fa-2x" id="masterplay"></i>
+      <i class="fa-solid fa-forward-step fa-2x" id="next"></i>
+    </div>
+    <div><span id="songinfo">Enemy</span></div>
+  </div>
+  
+
+  
+  <script src="https://kit.fontawesome.com/fce7429e7c.js" crossorigin="anonymous"></script>
+ <script src="script.js"></script>
+  
+</body>
+
+</html>
